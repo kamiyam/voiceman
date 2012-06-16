@@ -1,8 +1,53 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+#content {
+	background-color: #CCC;
+	padding: 30px;
+	width: 800px;
+	border: thin solid #666;
+	margin-right: auto;
+	margin-left: auto;
 }
 
-a {
-  color: #00B7FF;
+#messages{
+	width:100%;
+	height:400px;
+	overflow-y:scroll;
+	border:1px solid #0CF;
+	background-color: #DEF;
+}
+
+#message{
+    margin: 0;
+    padding: 0;
+    width: 780px;
+}
+
+
+.list{
+    list-style: none;
+	width:100%;
+	margin: 5px;
+	padding: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #666;
+	line-height: 120%;
+}
+
+#online
+{
+
+    filter: alpha(opacity=0);
+    -moz-opacity:0.0;
+    opacity:0.0;
+}
+
+#input_area
+{
+    padding: 10px;
+    overflow: hidden;
+    /zoom:1;
+}
+
+#input_area div{
+    float: left;
 }
