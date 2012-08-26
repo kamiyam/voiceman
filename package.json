@@ -1,6 +1,6 @@
 {
   "name": "voiceman",
-  "version": "0.0.1",
+  "version": "test`",
   "private": true,
   "scripts": {
     "start": "node server"
